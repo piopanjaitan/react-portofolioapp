@@ -2,17 +2,23 @@ import React from 'react'
 import '../App.css';
 
 import Navbar from './Navbar';
-import Main from "../sections/Main";
+
 import About from "../sections/About"
-import Contact from "../sections/Contac";
+import Experience from "../sections/Experience";
+import Education from "../sections/Education";
+import Skills from "../sections/Skills";
+import Interests from "../sections/Interests";
+import Awards from "../sections/Awards";
 
 function LayoutNavbar() {
     return (
         <div className="LayoutNavbar">
-            <Main />
             <About />
-            <Contact />
-            
+            <Experience />
+            <Education />
+            <Skills />
+            <Interests />
+            <Awards />   
         </div>
     )
 }

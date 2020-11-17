@@ -10,14 +10,29 @@ body {
   padding: 0;
 }
 
+.Sidebar {
+  height: 700vh;
+  width: 320px;
+  background-color: #BC5B3C;
+  z-index: 1;
+  position: fixed;
+}
+
+/* Navigation */
 .navbar {
   display: flex;
   flex-direction: column;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 10%;
   padding-left: 85px;
   padding-top: 10px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: initial;
+  color: burlywood;
+  font-size: 14pt;
+  font-weight: bolder;
 }
 
 .navbar ul {
@@ -32,26 +47,41 @@ body {
   display: list-item;
 }
 
-.main-section {
+/* List Sidebar */
+
+.about-section {
+  height: 100vh;
+  margin-left: 25%;
+}
+
+.experience-section {
+  height: 100vh;
+  margin-left: 25%;
+}
+
+.education-section {
+  height: 100vh;
+  margin-left: 25%;
+}
+
+.interests-section {
+  height: 100vh;
+  margin-left: 25%;
+}
+
+.skills-section {
+  height: 100vh;
+  margin-left: 25%;
+}
+
+.awards-section {
   height: 100vh;
   width: 77vw;
+  margin-left: 25%;
 }
+
 
 /* .navbar> .active {
   border-bottom: 5px solid yellowgreen;
 } */
 
-.about-section {
-  height: 100vh;
-}
-
-.contact-section {
-  height: 100vh;
-}
-
-.Sidebar {
-  height: 300vh;
-  width: 380px;
-  background-color: #BC5B3C;
-  z-index: 1;
-}

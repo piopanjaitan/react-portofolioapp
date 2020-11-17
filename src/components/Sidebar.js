@@ -3,14 +3,6 @@ import '../App.css';
 import { Link } from "react-scroll";
 import Navbar from './Navbar';
 
-
-// function Sidebar() {
-//     return (
-//         <div className="Sidebar">
-//             Side Bar
-//         </div>
-//     )
-// }
 class Sidebar extends Component {
     render() {
       return (
@@ -20,7 +12,6 @@ class Sidebar extends Component {
             <Navbar />
             </Link>
             </div>                   
-          
         </div>
       );
     }

@@ -1,39 +1,98 @@
-import React, { Component } from 'react';
+// 
+import React from 'react';
 import { Link } from "react-scroll";
+import Avatar from '@material-ui/core/Avatar';
+import { makeStyles } from '@material-ui/core/styles';
 
-class Navbar extends Component {
-    state = {};
-    render() {
+const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+      marginTop: theme.spacing(1),
+      marginBottom: theme.spacing(1),
+      marginLeft: theme.spacing(1),
+      marginRight: theme.spacing(1),
+    },
+
+    navbar_list: {
+        marginTop: 15,
+    },
+
+    imageMeetup: {
+        marginTop: 120,
+        width: theme.spacing(18),
+        height: theme.spacing(18),
+      },
+}));
+
+export function Navbar() {
+    // state = {};
+    const classes = useStyles();
+    // render() {
         return (
             <div className="navbar">
-                <Link
-                    activeClass="active"
-                    to="main"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={230}
-                >Main</Link>
-
-                <Link
+                <Avatar alt="pioneer" src="/src/images/410051-PDWB4L-109.jpg" className={classes.imageMeetup} variant="circle"></Avatar>
+                 <Link
                     activeClass="active"
                     to="about"
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration={500}
-                >About</Link>
+                    className={classes.navbar_list}
+                >ABOUT</Link>
+
                 <Link
                     activeClass="active"
-                    to="contact"
+                    to="experience"
                     spy={true}
                     smooth={true}
                     offset={0}
                     duration={500}
-                >Contact</Link>
+                    className={classes.navbar_list}
+                >EXPERIENCE</Link>
+
+                <Link
+                    activeClass="active"
+                    to="education"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                    className={classes.navbar_list}
+                >EDUCATION</Link>
+
+                <Link
+                    activeClass="active"
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                    className={classes.navbar_list}
+                >SKILLS</Link>
+
+                <Link
+                    activeClass="active"
+                    to="interests"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                    className={classes.navbar_list}
+                >INTERESTS</Link>
+
+                <Link
+                    activeClass="active"
+                    to="awards"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={230}
+                    className={classes.navbar_list}
+                >AWARDS</Link>
             </div>
         );
-    }
+    // }
 }
 
 export default Navbar;
