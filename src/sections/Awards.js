@@ -40,7 +40,7 @@ export function Awards() {
               </Grid>
               <Grid item xs={6}>
                 <Box m={1}>
-                 Second place High School English debate competion.
+                 Second place High School English debate competition.
                 </Box>
               </Grid>
             </Grid>
