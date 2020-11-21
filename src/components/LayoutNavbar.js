@@ -1,8 +1,6 @@
 import React from 'react'
 import '../App.css';
 
-import Navbar from './Navbar';
-
 import About from "../sections/About"
 import Experience from "../sections/Experience";
 import Education from "../sections/Education";
