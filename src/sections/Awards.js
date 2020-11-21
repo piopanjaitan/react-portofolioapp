@@ -38,9 +38,9 @@ export function Awards() {
                   </Box>
                 </Typography> 
               </Grid>
-              <Grid item xs={5}>
+              <Grid item xs={6}>
                 <Box m={1}>
-                 Hack 36 3rd prize winner
+                 Second place High School English debate competion.
                 </Box>
               </Grid>
             </Grid>
@@ -59,7 +59,7 @@ export function Awards() {
               </Grid>
               <Grid item xs={5}>
                 <Box m={1}>
-                Mentor OpenCode'19
+                Indonesia Android Kejar 2016
                 </Box>
               </Grid>
             </Grid>
@@ -78,7 +78,7 @@ export function Awards() {
               </Grid>
               <Grid item xs={8}>
                 <Box m={1}>
-                 Started North Indonesia First Student Design and Developer Conference
+                 Android Advanced : User Interface Design
                 </Box>
               </Grid>
             </Grid>

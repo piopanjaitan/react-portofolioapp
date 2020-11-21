@@ -54,7 +54,7 @@ export function Skills() {
               </Grid>
               <Grid item xs={5}>
                 <Box m={1}>
-                 HTML5
+                 JAVA
                 </Box>
               </Grid>
               <Grid >
@@ -66,7 +66,7 @@ export function Skills() {
               </Grid>
               <Grid item xs={3}>
                 <Box m={1}>
-                CSS3
+                Android
                 </Box>
               </Grid>
             </Grid>
@@ -147,7 +147,7 @@ export function Skills() {
               </Grid>
               <Grid item xs={5}>
                 <Box m={1}>
-                 Django
+                 Android Studio
                 </Box>
               </Grid>
               <Grid >
@@ -159,7 +159,7 @@ export function Skills() {
               </Grid>
               <Grid item xs={3}>
                 <Box m={1}>
-                Ember
+                Visual Studio Code
                 </Box>
               </Grid>
             </Grid>

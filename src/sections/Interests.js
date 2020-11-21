@@ -29,12 +29,11 @@ export function Interests() {
       <Grid justify="center" container spacing={2}>
         <Grid item xs={11}>
         <Box m={1}>
-              A part of being a web developer, I enjoy most of my time being outdoors. In the winter , I am an avid skier and novice ice climber. During the 
-              warmer months here in Colorado. I enjoy mountain biking, free climbing and kayaking.
+              A part of being a android developer, I enjoy most of my time playing game and watching movies. In the outdoor , I like play basketball with my friends. Before midnight 
+              I usually read book (mostly about grow bussines) and analysis my stock option before I going to bed.
             </Box>
             <Box m={1}>
-              When force indoors, I follow a number of sci-fi and fantasy genre movies and television shows. I am an aspiring chef, and I spend a large
-              amount of my free time exploring the latest technology advancements in the front-end web development world.
+              Beside my job as mobile developer, I also interesting about machine learning and augmented reality.
             </Box>
           </Grid>
       </Grid>

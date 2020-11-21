@@ -30,13 +30,13 @@ export function Education(){
               <Grid item xs={12}>
                 <Typography fontWeight="fontWeightBold">
                   <Box m={1}>
-                    <b>LOREMIPSUM INSTITUTE OF INFORMATION TECHNOLOGY</b>
+                    <b>BACHELOR DEGREE OF INFORMATICS, BENGKULU UNIVERSITY</b>
                   </Box>
                   <Box m={1}>
-                    BACHELOR OF TECHNOLOGY
+                    BACHELOR OF INFORMATICS
                   </Box>
                   <Box m={1}>
-                    <body>12.34</body>
+                    <body></body>
                   </Box>
                 </Typography> 
               </Grid>

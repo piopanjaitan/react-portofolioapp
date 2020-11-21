@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from "react-scroll";
 import Avatar from '@material-ui/core/Avatar';
 import { makeStyles } from '@material-ui/core/styles';
+import pio_avatar from "../images/410051-PDWB4L-109.jpg";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -30,7 +31,7 @@ export function Navbar() {
     // render() {
         return (
             <div className="navbar">
-                <Avatar alt="pioneer" src="/src/images/410051-PDWB4L-109.jpg" className={classes.imageMeetup} variant="circle"></Avatar>
+                <Avatar src={pio_avatar} className={classes.imageMeetup} variant="circle"></Avatar>
                  <Link
                     activeClass="active"
                     to="about"

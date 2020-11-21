@@ -31,19 +31,19 @@ export function Experience() {
               <Grid item xs={12}>
                 <Typography fontWeight="fontWeightBold">
                   <Box m={1}>
-                    <b>GITHUB CAMPUS EXPERT</b>
+                    <b>LECTURER ASSISTANT</b>
                   </Box>
                   <Box m={1}>
-                    GITHUB
+                    BENGKULU UNIVERSITY
                   </Box>
                   <Box m={1}>
-                    <body>Responsible for building the on campus community with the support of Github</body>
+                    <body>Responsible for teaching computer networks, multimedia and Linux OS</body>
                   </Box>
                 </Typography> 
               </Grid>
               <Grid item xs={3}>
                 <Box m={1}>
-                 August 2018 - Present
+                 Feb 2010 - Aug 2014
                 </Box>
               </Grid>
             </Grid>
@@ -56,20 +56,20 @@ export function Experience() {
               <Grid item xs={12}>
                 <Typography fontWeight="fontWeightBold">
                   <Box m={1}>
-                    <b>OPEN SOURCE DEVELOPER INTERN</b>
+                    <b>DEVELOPER INTERN</b>
                   </Box>
                   <Box m={1}>
-                    FOSSASIA
+                    SMK 10 Telekomunikasi Bengkulu
                   </Box>
                   <Box m={1}>
-                    <body>Contributing to Fossasia's open event server and frontend as an intern. Resolved numerous bugs and</body>
-                    <body>added new features to the eventyay platform</body>
+                    <body>Developing student report desktop application with JAVA and MySql</body>
+                    <body>added new features to the application such as report printout using Jasper Report</body>
                   </Box>
                 </Typography> 
               </Grid>
               <Grid item xs={3}>
                 <Box m={1}>
-                 August 2018 - Present
+                 Feb 2010 - Sep 2010
                 </Box>
               </Grid>
             </Grid>
@@ -82,19 +82,20 @@ export function Experience() {
               <Grid item xs={12}>
                 <Typography fontWeight="fontWeightBold">
                   <Box m={1}>
-                    <b>SOFTWARE DEVELOPER INTERN</b>
+                    <b>ANDROID DEVELOPER</b>
                   </Box>
                   <Box m={1}>
-                    HASURA
+                    PT. UNION SAMPOERNA TRIPUTRA PERSADA
                   </Box>
                   <Box m={1}>
-                    <body>Worked on Hasura's GraphQL engine and added  new features in it</body>
+                    <body>- Developing and Maintain Mobile Harvesting Application</body>
+                    <body>- Developing and Maintain Mobile Inspection Application</body>
                   </Box>
                 </Typography> 
               </Grid>
               <Grid item xs={3}>
                 <Box m={1}>
-                 August 2018 - Present
+                 Aug 2015 - Present
                 </Box>
               </Grid>
             </Grid>
