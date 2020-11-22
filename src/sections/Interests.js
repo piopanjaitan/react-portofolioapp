@@ -29,7 +29,7 @@ export function Interests() {
       <Grid justify="center" container spacing={2}>
         <Grid item xs={11}>
         <Box m={1}>
-              A part of being a android developer, I enjoy most of my time playing game and watching movies. In the outdoor , I like play basketball with my friends. Before midnight 
+              A part of being an android developer, I enjoy most of my time playing game and watching movies. In the outdoor , I like play basketball with my friends. Before midnight 
               I usually read book (mostly about grow bussines) and analysis my stock option before I going to bed.
             </Box>
             <Box m={1}>
